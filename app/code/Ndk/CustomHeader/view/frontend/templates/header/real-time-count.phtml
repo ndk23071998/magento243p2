@@ -1,0 +1,16 @@
+<span class="real-time-count" data-bind="scope: 'realTimeCount'">
+    <!-- ko template: getTemplate() --><!-- /ko -->
+</span>
+<script type="text/x-magento-init">
+    {
+        "*": {
+            "Magento_Ui/js/core/app": {
+                "components": {
+                    "realTimeCount": {
+                        "component": "Ndk_CustomHeader/js/real-time-count"
+                    }
+                }
+            }
+        }
+    }
+</script>
